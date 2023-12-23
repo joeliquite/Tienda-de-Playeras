@@ -42,7 +42,7 @@ a{
 }
 
 img{
-    max-width: 100%;
+    width: 100%;
 }
 
 .contendor{
@@ -144,13 +144,7 @@ h3{
 }
 
 
-.producto__imagen{
-    width: 100%;
-}
 
-.producto__informacion{
-
-}
 
 .producto__nombre{
     font-size: 4rem;

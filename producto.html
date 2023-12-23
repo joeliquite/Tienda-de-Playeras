@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Montserrat:ital@1&family=Poppins:wght@100;200&family=Roboto+Flex:opsz,wght@8..144,100&family=Staatliches&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nosotros.css">
 </head>
 <body>
 <header class="header">
@@ -24,7 +25,27 @@
 
 
 <main class="contenedor">
-    <h1>Productos</h1>
+    <h1>React JS</h1>
+
+    <div class="camisa">
+        <img class="camisa__imagen" src="img/3.jpg" alt="Imagen del Producto">
+        <div class="camisa__contenido">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos animi dolores qui nam laborum ex recusandae vero atque, distinctio ratione delectus reiciendis deleniti inventore ipsam est tenetur corrupti nesciunt exercitationem?</p>
+
+            <form  class="formulario" action="#">
+                <select class="formulario__campo">
+                    <option value="" disabled selected>-- Seleccionar Talla</option>
+                    <option value="">XS</option>
+                    <option value="">S</option>
+                    <option value="">M</option>
+                    <option value="">L</option>
+                </select>
+
+                <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+            </form>
+        </div>
+    </div>
 </main>
 
 
